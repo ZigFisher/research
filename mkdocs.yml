@@ -104,22 +104,25 @@ extra:
       - reject
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ExpressLRS/
+      link: https://github.com/OpenIPC
       name: See the Github Repo
     - icon: fontawesome/brands/discord
       link: https://discord.gg/dS6ReFY
       name: Check out the Discord
     - icon: fontawesome/brands/facebook
-      link: https://www.facebook.com/groups/636441730280366
+      link: https://www.facebook.com/groups/956912811789726
       name: Join the Facebook Group
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/expresslrs
+      link: https://twitter.com/openipc
       name: We're on Twitter too!
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/expresslrs
       name: Follow us on Instagram
+    - icon: fontawesome/brands/onlyfans
+      link: https://onlyfans.com/openipc
+      name: Follow us on OnlyFans!
     - icon: fontawesome/solid/circle-dollar-to-slot
-      link: https://opencollective.com/expresslrs
+      link: https://opencollective.com/openipc
       name: Send a Donation!
   generator: true
 
@@ -300,7 +303,7 @@ nav:
           - majestic: faq.md
           - venc: faq.md
           - vdec: faq.md
-      - FAQ: #
+      - FAQ: faq.md
 
 extra_javascript:
   - assets/javascripts/binding-phrase.js
