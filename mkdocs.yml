@@ -295,13 +295,13 @@ nav:
   - FAQ: faq.md
   - GSoD: gsod.md
   - FPV:
-      - Quick Start: faq.md
-      - SSC30KQ: faq.md
-      - GK7205Vx00: faq.md
-      - HI3536xV100: faq.md
-      - Majestic: faq.md
-      - Venc: faq.md
-      - Vdec: faq.md
+      - Quick Fly: info/glossary.md
+      - SSC30KQ: info/signal-health.md
+      - GK7205Vx00: info/telem-bandwidth.md
+      - HI3536xV100: info/long-range.md
+      - Majestic: info/advance-technical-info.md
+      - Venc: info/privacy-policy.md
+      - Vdec: info/licenses.md
 
 extra_javascript:
   - assets/javascripts/binding-phrase.js
