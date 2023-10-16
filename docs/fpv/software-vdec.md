@@ -1,11 +1,23 @@
 ---
 template: main.html
-description: This is a blank template for the pages we create
+description: The vdec
 ---
 
 ![OpenIPC Logo](https://openipc.org/assets/openipc-logo-black.svg)
 
-## Welcome to OpenIPC !
+
+## The vdec
+
+
+### vdec
+
+Component for flashing OpenIPC Ground Station based on NVR with HI3536DV100/HI3536EV100 processors
+
+
+### vdec-nvr-20231014
+
+The latest stable version of vdec for NVR before switching to LVGL for OSD display.
+
 
 ### vdec-i386
 
@@ -19,3 +31,8 @@ The usage for testing:
 ./vdec 5600 192.168.1.10 6000 
 gst-launch-1.0 udpsrc port=6000 ! h265parse ! avdec_h265 ! autovideosink sync=false
 ```
+
+
+### Files for download
+
+- https://github.com/OpenIPC/silicon_research/releases/tag/latest
