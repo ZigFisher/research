@@ -295,15 +295,22 @@ nav:
   - FAQ: faq.md
   - GSoD: gsod.md
   - FPV:
-      - Quick Fly: info/glossary.md
-      - Hardware:
-          - SSC30KQ: info/signal-health.md
-          - GK7205Vx00: info/telem-bandwidth.md
-          - HI3536xV100: info/long-range.md
+      - Quick Fly: fpv/info-quick.md
+      - Flight cameras:
+          - ssc338q from Anjoy: fpv/hardware-ssc338q-anjoy.md
+          - ssc338q from CamHi: fpv/hardware-ssc338q-camhi.md
+          - gk7205v200 from XM: fpv/hardware-gk7205v200-xm.md
+          - gk7205v300 from XM: fpv/hardware-gk7205v200-xm.md
+      - GS equipment:
+          - hi3536dv100: fpv/hardware-hi3536dv100.md
+      - WiFi adapters:
+          - rtl8733bu: fpv/hardware-rtl8733bu.md
+          - rtl8812au: fpv/hardware-rtl8812au.md
       - Software:
-          - Majestic: info/advance-technical-info.md
-          - Venc: info/privacy-policy.md
-          - Vdec: info/licenses.md
+          - majestic: fpv/software-majestic.md
+          - venc: fpv/software-vdec.md
+          - vdec: fpv/software-vdec.md
+          - mavfwd: fpv/software-mavfwd.md
 
 extra_javascript:
   - assets/javascripts/binding-phrase.js
