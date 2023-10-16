@@ -1,8 +1,8 @@
-name: wtf 
+name: pager
 on:
   push:
     branches:
-      - master-lock 
+      - master 
   workflow_dispatch:
 permissions:
   contents: write
