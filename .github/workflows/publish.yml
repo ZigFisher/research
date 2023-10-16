@@ -38,8 +38,8 @@ jobs:
         if: github.event.repository.fork == false
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-#        run: pip install --upgrade git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.4.2-insiders-4.42.0
-        run: pip install git+ssh://git@github.com/squidfunk/mkdocs-material-insiders.git@9.4.2-insiders-4.42.0
+#       run: pip install --upgrade git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.4.2-insiders-4.42.0
+        run: pip install git+ssh://git@github.com/Ultra-Instinct-05/mkdocs-material-insiders.git
 
       - name: Deploy release version
         run: |
