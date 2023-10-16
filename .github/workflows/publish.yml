@@ -1,0 +1,50 @@
+name: publish
+on:
+  push:
+    branches:
+      - master
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout latest push
+        uses: actions/checkout@v3
+
+      - name: Setup Python env
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9.16
+
+      - name: Setup Caching
+        uses: actions/cache@v3
+        with:
+          key: ${{ github.ref }}
+          path: .cache
+
+      - name: Setup Github
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git pull
+          git checkout master
+
+      - name: Install Dependencies
+        run: make install-python-packages
+
+      - name: Install MkDocs Insiders
+        if: github.event.repository.fork == false
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: pip install --upgrade git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-insiders.git@9.4.2-insiders-4.42.0
+
+      - name: Deploy release version
+        run: |
+          mkdocs gh-deploy --force --config-file mkdocs-insiders.yml
+
+      - name: Push changes to server
+        run: |
+          git checkout gh-pages
+          git remote set-url --push origin https://actions:$GITHUB_TOKEN@github.com/ExpressLRS/Docs
+          git push -f origin gh-pages
