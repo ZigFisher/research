@@ -291,6 +291,16 @@ nav:
       - Licenses: info/licenses.md
   - FAQ: faq.md
   - GSoD: gsod.md
+  - FPV: #
+      - Quick Start: #
+      - Hardware: #
+          - Air: #
+          - GroundStation: #
+      - Software: #
+          - majestic: #
+          - venc: #
+          - vdec: #
+      - FAQ: #
 
 extra_javascript:
   - assets/javascripts/binding-phrase.js
