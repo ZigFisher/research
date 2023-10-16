@@ -297,12 +297,7 @@ nav:
   - FPV:
       - Quick Start: faq.md
       - Hardware: faq.md
-          - Air: faq.md
-          - GroundStation: faq.md
       - Software: faq.md
-          - majestic: faq.md
-          - venc: faq.md
-          - vdec: faq.md
       - FAQ: faq.md
 
 extra_javascript:
