@@ -7,9 +7,9 @@ hide:
 
 ![FAQ-Banner](https://raw.githubusercontent.com/ExpressLRS/ExpressLRS-Hardware/master/img/faq.png)
 
-## <span class="custom-heading" data-id="1">Why ExpressLRS?</span>
+## <span class="custom-heading" data-id="1">Why OpenIPC?</span>
 
-??? faq "Why ExpressLRS?"
+??? faq "Why OpenIPC?"
     ExpressLRS is competing with some of the best commercial solutions out there, but all are expensive 🙁. Well, ELRS is not 😄, it can be set up for around 60$ (Using second-hand r9 hardware). It also is better than many (higher sensitivity, lower latency👌).
 ## <span class="custom-heading" data-id="2">Is it better than the commercial solutions?</span>
 
@@ -93,7 +93,7 @@ hide:
 
 If you have other questions or concerns, or maybe you need further help that is not covered by this Guide, head over to our Discord Channel or Facebook Group!
 
-<span style="padding-left:15%; display:inline; text-align:center">[ExpressLRS Discord :fontawesome-brands-discord:](https://discord.gg/dS6ReFY){ .md-button }</span>
-<span style="padding-left:15%; display:inline; text-align:center">[ExpressLRS Facebook :fontawesome-brands-facebook:](https://www.facebook.com/groups/636441730280366){ .md-button }</span>
+<span style="padding-left:15%; display:inline; text-align:center">[OpenIPC Telegram :fontawesome-brands-discord:](https://t.me/OpenIPC){ .md-button }</span>
+<span style="padding-left:15%; display:inline; text-align:center">[OpenIPC Facebook :fontawesome-brands-facebook:](https://www.facebook.com/groups/956912811789726){ .md-button }</span>
 
 <script src="../assets/javascripts/admonition-enhancement.js"></script>
