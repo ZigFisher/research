@@ -1,15 +1,15 @@
 ---
 template: main.html
-description: SSC338Q + IMX415 + NAND flash, board from CamHi vendor
+description: SSC338Q + IMX415 + NAND flash, board from CamHi
 ---
 
 ![OpenIPC Logo](https://openipc.org/assets/openipc-logo-black.svg)
 
 
-## Instructions for installing OpenIPC firmware on SigmaStar devices from CamHi vendor
+## Installing OpenIPC firmware on SigmaStar devices from CamHi
 
 
-### Quick note on experiments, will be revised and updated
+### Quick note on experiments, will be revised
 
 * [The files for this experiment are temporarily available here](https://github.com/OpenIPC/sandbox-fpv/tree/master/sigmastar)
 
