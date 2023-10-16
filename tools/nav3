@@ -104,11 +104,11 @@
 - ssc338q from CamHi: fpv/hardware-ssc338q-camhi.md
 - gk7205v200 from XM: fpv/hardware-gk7205v200-xm.md
 - gk7205v300 from XM: fpv/hardware-gk7205v200-xm.md
-- hi3536dv100: fpv/hardware-hi3536dv100.md
+- hi3536dv100 from XM: fpv/hardware-hi3536dv100-xm.md
 - rtl8733bu: fpv/hardware-rtl8733bu.md
 - rtl8812au: fpv/hardware-rtl8812au.md
 - majestic: fpv/software-majestic.md
-- venc: fpv/software-vdec.md
+- venc: fpv/software-venc.md
 - vdec: fpv/software-vdec.md
 - mavfwd: fpv/software-mavfwd.md
 
