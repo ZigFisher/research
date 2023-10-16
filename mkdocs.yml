@@ -1,15 +1,15 @@
-site_name: ExpressLRS
-site_url: https://www.expresslrs.org/
-site_author: ExpressLRS
+site_name: OpenIPC
+site_url: https://openipc.org/
+site_author: OpenIPC
 site_description: >-
   ExpressLRS aims to provide the best completely open, high refresh radio
   control link while maintaining a maximum achievable range at that rate with
   low latency. Vast support of hardware in both 900 MHz and 2.4 GHz frequencies.
 
 # Repository
-repo_name: ExpressLRS/ExpressLRS
-repo_url: https://github.com/ExpressLRS/ExpressLRS/releases/
-edit_uri: "https://github.com/ExpressLRS/Docs/tree/master/docs"
+repo_name: OpenIPC/firmware
+repo_url: https://github.com/OpenIPC/firmware/releases/
+edit_uri: "https://github.com/ZigFisher/research/tree/master/docs"
 
 # privacy_policy_page_path: "/info/privacy-policy"
 # licenses_page_path: "/info/licenses"
