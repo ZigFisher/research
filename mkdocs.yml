@@ -296,9 +296,12 @@ nav:
   - GSoD: gsod.md
   - FPV:
       - Quick Start: faq.md
-      - Hardware: faq.md
-      - Software: faq.md
-      - FAQ: faq.md
+      - SSC30KQ: faq.md
+      - GK7205Vx00: faq.md
+      - HI3536xV100: faq.md
+      - Majestic: faq.md
+      - Venc: faq.md
+      - Vdec: faq.md
 
 extra_javascript:
   - assets/javascripts/binding-phrase.js
