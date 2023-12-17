@@ -114,6 +114,8 @@
 - GK7205V300 IMX307 v1: devices/openipc-gk7205v300-imx307-v1.md
 - SSC338Q IMX307 v1: devices/openipc-ssc338q-imx307-v1.md
 - DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
+- IPC-C22EP-S2: devices/imou-c22ep-s2.md
+- QVC-IPC-136W: devices/qtech-qvc-ipc-136w.md
 - Tapo C110 v1: devices/tp-link-tapo-c110-v1.md
 - Tapo C110 v2: devices/tp-link-tapo-c110-v2.md
 - Pisets v0: devices/huahui-pisets-v0.md
