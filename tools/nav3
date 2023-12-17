@@ -111,4 +111,7 @@
 - venc: fpv/software-venc.md
 - vdec: fpv/software-vdec.md
 - mavfwd: fpv/software-mavfwd.md
+- DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
+- Tapo C110 v1: devices/tp-link-tapo-c110-v1.md
+- Tapo C110 v2: devices/tp-link-tapo-c110-v2.md
 
