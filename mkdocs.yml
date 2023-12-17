@@ -320,6 +320,7 @@ nav:
               - Tapo C110 v2: devices/tp-link-tapo-c110-v2.md
       - Rejected:
           - Huahui:
+              - Pisets v0: devices/huahui-pisets-v0.md
 
 
 extra_javascript:
