@@ -311,11 +311,12 @@ nav:
           - venc: fpv/software-venc.md
           - vdec: fpv/software-vdec.md
           - mavfwd: fpv/software-mavfwd.md
-  - Devices: devices.md
-      - Integrated:
+  - Devices:
+      - Internally:
           - OpenIPC:
               - GK7205V300 IMX307 v1: devices/openipc-gk7205v300-imx307-v1.md
               - SSC338Q IMX307 v1: devices/openipc-ssc338q-imx307-v1.md
+      - Integrated:
           - ChinaTelecom:
               - DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
           - TP-Link:
