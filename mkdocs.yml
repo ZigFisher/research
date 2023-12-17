@@ -2,9 +2,9 @@ site_name: OpenIPC
 site_url: https://openipc.org/
 site_author: OpenIPC
 site_description: >-
-  ExpressLRS aims to provide the best completely open, high refresh radio
-  control link while maintaining a maximum achievable range at that rate with
-  low latency. Vast support of hardware in both 900 MHz and 2.4 GHz frequencies.
+  OpenIPC is an open-source operating system targeting IP cameras with ARM and MIPS 
+  processors from several manufacturers in order to replace that closed, opaque, 
+  insecure, often abandoned and unsupported firmware pre-installed by a vendor.
 
 # Repository
 repo_name: OpenIPC/firmware
@@ -15,7 +15,7 @@ edit_uri: "https://github.com/ZigFisher/research/tree/master/docs"
 # licenses_page_path: "/info/licenses"
 
 # Copyright
-copyright: Copyright &copy; 2013-2023 OpenIPC
+copyright: Copyright &copy; 2013-2024 OpenIPC
 
 # Configuration
 theme:
@@ -311,8 +311,11 @@ nav:
           - venc: fpv/software-venc.md
           - vdec: fpv/software-vdec.md
           - mavfwd: fpv/software-mavfwd.md
-  - Devices:
+  - Devices: devices.md
       - Integrated:
+          - OpenIPC:
+              - GK7205V300 IMX307 v1: devices/openipc-gk7205v300-imx307-v1.md
+              - SSC338Q IMX307 v1: devices/openipc-ssc338q-imx307-v1.md
           - ChinaTelecom:
               - DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
           - TP-Link:

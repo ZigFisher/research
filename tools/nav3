@@ -111,6 +111,9 @@
 - venc: fpv/software-venc.md
 - vdec: fpv/software-vdec.md
 - mavfwd: fpv/software-mavfwd.md
+- Devices: devices.md
+- GK7205V300 IMX307 v1: devices/openipc-gk7205v300-imx307-v1.md
+- SSC338Q IMX307 v1: devices/openipc-ssc338q-imx307-v1.md
 - DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
 - Tapo C110 v1: devices/tp-link-tapo-c110-v1.md
 - Tapo C110 v2: devices/tp-link-tapo-c110-v2.md
