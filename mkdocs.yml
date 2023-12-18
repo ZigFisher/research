@@ -343,7 +343,7 @@ nav:
               - IPC-C22EP-S2: devices/imou-c22ep-s2.md
           - CCDCAM:
               - QVC-IPC-136W: devices/qtech-qvc-ipc-136w.md
-         - XiongMai:
+          - XiongMai:
               - 000659N7 IVG-G4: devices/tp-link-tapo-c110-v1.md
               - Tapo C110 v2: devices/tp-link-tapo-c110-v2.md
       - Rejected:
