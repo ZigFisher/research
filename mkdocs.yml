@@ -331,8 +331,6 @@ nav:
       - Rejected IP cameras:
           - Huahui:
               - Pisets v0: devices/huahui-pisets-v0.md
-
-
   - Boards:
       - Internally:
           - OpenIPC:
