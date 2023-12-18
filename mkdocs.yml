@@ -344,7 +344,7 @@ nav:
           - CCDCAM:
               - QVC-IPC-136W: devices/qtech-qvc-ipc-136w.md
          - XiongMai:
-              - IVG-G4 : devices/tp-link-tapo-c110-v1.md
+              - 000659N7 IVG-G4: devices/tp-link-tapo-c110-v1.md
               - Tapo C110 v2: devices/tp-link-tapo-c110-v2.md
       - Rejected:
           - Guandoun:
