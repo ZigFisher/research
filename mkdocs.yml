@@ -312,11 +312,11 @@ nav:
           - vdec: fpv/software-vdec.md
           - mavfwd: fpv/software-mavfwd.md
   - Devices:
-      - Internally:
+      - Internally devices:
           - OpenIPC:
               - GK7205V300 IMX307 v1: devices/openipc-gk7205v300-imx307-v1.md
               - SSC338Q IMX307 v1: devices/openipc-ssc338q-imx307-v1.md
-      - Integrated:
+      - Integrated IP cameras:
           - ChinaTelecom:
               - DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
           - Imou:
@@ -332,7 +332,12 @@ nav:
 #         - Uniview:
 #         - Wansview:
 #         - Xiaomi:
-      - Rejected:
+#     - Integrated IPCam modules:
+#         - Anjoy:
+#         - CamHi:
+#         - CCDCAM:
+#         - XiongMai:
+      - Rejected devices:
           - Huahui:
               - Pisets v0: devices/huahui-pisets-v0.md
 
