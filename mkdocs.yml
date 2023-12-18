@@ -312,10 +312,6 @@ nav:
           - vdec: fpv/software-vdec.md
           - mavfwd: fpv/software-mavfwd.md
   - Devices:
-      - Internally devices:
-          - OpenIPC:
-              - GK7205V300 IMX307 v1: devices/openipc-gk7205v300-imx307-v1.md
-              - SSC338Q IMX307 v1: devices/openipc-ssc338q-imx307-v1.md
       - Integrated IP cameras:
           - ChinaTelecom:
               - DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
@@ -332,14 +328,36 @@ nav:
 #         - Uniview:
 #         - Wansview:
 #         - Xiaomi:
-#     - Integrated IPCam modules:
-#         - Anjoy:
-#         - CamHi:
-#         - CCDCAM:
-#         - XiongMai:
-      - Rejected devices:
+      - Rejected IP cameras:
           - Huahui:
               - Pisets v0: devices/huahui-pisets-v0.md
+
+
+  - Boards:
+      - Internally:
+          - OpenIPC:
+              - GK7205V300 IMX307 v1: devices/openipc-gk7205v300-imx307-v1.md
+              - SSC338Q IMX307 v1: devices/openipc-ssc338q-imx307-v1.md
+      - Integrated:
+          - Anjoy:
+              - DS-YTJ5301: devices/chinatelecom-ds-ytj5301.md
+          - CamHi:
+              - IPC-C22EP-S2: devices/imou-c22ep-s2.md
+          - CCDCAM:
+              - QVC-IPC-136W: devices/qtech-qvc-ipc-136w.md
+         - XiongMai:
+              - Tapo C110 v1: devices/tp-link-tapo-c110-v1.md
+              - Tapo C110 v2: devices/tp-link-tapo-c110-v2.md
+      - Rejected:
+          - Guandoun:
+              - Pisets v0: devices/huahui-pisets-v0.md
+
+
+
+
+
+
+
 
 
 extra_javascript:
